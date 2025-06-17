@@ -1,0 +1,78 @@
+1. Korzyści z utrzymywania indexów w bazie danych
+-szybki dostęp do danych (asocjacyjny)
+-łatwe sortowanie wyników (porządkowanie i grupowanie)
+-łatwe sprawdzanie unikatowości
+
+2.Trzecia postać normalna w relacji bazodanowej jest naruszona, gdy -> pewien niekluczowy atrybut relacji zależy przechodnio od klucza głównego
+
+3. Relacja bazodanowa -> dowolny podzbiór produktu kartezjańskiego skończonej liczby dziedzin prostych
+
+4. 4 zasadnicze cechy transakcji
+-atomowość
+-spójność
+-izolacja
+-trwałość
+
+5. 3 podstawowe komponenty języka zapytań dla baz danych
+-Data Manipulation Language
+-Data Control Language
+-Data Definition Language
+
+6. Nieprymitywne operatory algebry relacji
+-przecięcie (iloczyn)
+-złączenie
+
+7. Ograniczenia (constraints) -> w języku SQL służą automatycznemu utrzymywaniu integralności logicznej bazy danych
+
+8. Nazwy standardowych poziomów izolacji transakcji ANSI w kolejnosci najelszepj izolacji do najgorszej
+- serializable
+- repeatable read
+- read commited
+- read uncommited
+
+9. Dwie najpoważniejsze anomalie spowodowane brakiem izolacji współbieżnych transakcji oraz najnizszy poziom izolacji który je eliminuje:
+- dirty read
+- lost update
+
+eliminuje: poziom commited read
+
+10. Zaleznosc funkcjonalna przechodnia od klucza głównego -> powoduje naruszenie trzeciej postaci normalnej
+
+11. Dwie formy modułów programowych, jakie mogą byc wykonane po stronie serwera baz danych:
+- procedury składowane (pamiętane)
+- wyzwalacze (procedury wyzwalane)
+
+12. Aby relacja spełniała postać normalną Boyce'a-Codda, każdy wyznacznik musi być kluczem kandydującym
+
+13. Niepełna zależność funkcjonalna od klucza głównego (czyli zależność pełna od części klucza głównego) -> powoduje naruszenie drugiej postaci normalnej
+
+14. Trzy zasady przezroczystości w rozproszonych bazach danych:
+- przezroczystosc lokalizacji
+- przezroczystosc fragmentacji
+- przezroczystosc replikacji
+
+15. klucz obcy wskazuje na nieistniejący klucz główny w tablicy wskazywanej -> naruszona zasada integralnosci referencyjnej
+
+16. wiele do wiele -> oddzielna relacja
+
+17. Trzy poziomy architektury systemu baz danych
+- uzytkownika (zewnetrzny)
+- logiczny (koncepcyjny)
+- fizyczny (wewnetrzny)
+
+18. Podstawowe rodzaje baz danych typu NoSQL:
+-klucz-wartosc
+-kolumnowe
+-dokumentowe
+-grafowe
+
+19. Zgodnie z twierdzeniem CAP, w rozproszonych systemach baz danych, w każdej sytuacji:
+- Nie jest możliwe zachowanie pełnej integralności, pełnej dostępności i rozproszenia
+- Możliwe jest zachowanie pełnej integralności i rozproszenia kosztem dostępności
+
+20. Trzy elementy jezyka SQL przeznaczone do ochrony danych:
+-views
+-REVOKE statements
+-GRANT statements
+
+21. 
