@@ -1,0 +1,109 @@
+#include <stdio.h>
+
+void przestaw(int tab[], int n);
+
+int main()
+{
+	int tablica[10] = { 23,12,32,45,76,90,-102,99,22,145 };
+	int ilosc = 10;
+	printf("Tablica przed posortowaniem : \n");
+
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%d ", tablica[i]);
+
+	}
+	for (int i = 0; i < 9; i++)
+	{
+		przestaw(tablica, ilosc);
+		ilosc--;
+
+	}
+
+	printf("Tablica po posortowaniu : \n");
+
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%d ", tablica[i]);
+
+	}
+
+	return 0;
+}
+
+.686
+.model flat
+public _przestaw
+.code
+
+_przestaw PROC
+	push ebp
+	mov ebp,esp
+	push ebx
+
+	mov ebx, [ebp+8]
+	mov ecx, [ebp+12]
+	dec ecx
+
+ptl: 
+	mov eax, [ebx]
+
+	cmp eax, [ebx+4]
+	jle gotowe
+
+	mov edx, [ebx+4]
+	mov [ebx], edx
+	mov [ebx+4], eax
+
+gotowe:
+	add ebx,4
+	loop ptl
+	pop ebx
+	pop ebp
+	ret
+
+_przestaw ENDP
+END
+
+
+
+
+
+
+
+.686
+.model flat
+public _przestaw
+.code
+
+_przestaw PROC
+	push ebp
+	mov ebp, esp
+	push ebx
+
+	mov ebx, [ebp+8]     ; wskaźnik do tablicy
+	mov ecx, [ebp+12]    ; liczba elementów
+	dec ecx              ; zmniejsz licznik o 1 (ostatni element nie jest porównywany)
+
+ptl: 
+	mov eax, [ebx]       ; wczytaj bieżący element
+
+	cmp eax, [ebx+4]     ; porównaj z następnym elementem
+	jge gotowe           ; jeśli bieżący >= następnego, nie zamieniaj
+
+	; Zamień miejscami elementy
+	mov edx, [ebx+4]     ; wczytaj następny element
+	mov [ebx], edx       ; zamień bieżący z następnym
+	mov [ebx+4], eax     ; wstaw bieżący na miejsce następnego
+
+gotowe:
+	add ebx, 4           ; przejdź do następnego elementu
+	loop ptl             ; zmniejsz licznik i sprawdź, czy kontynuować
+
+	pop ebx
+	pop ebp
+	ret
+
+_przestaw ENDP
+END
+// malejaco

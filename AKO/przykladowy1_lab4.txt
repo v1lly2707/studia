@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+void plus_jeden(int* a);
+
+int main()
+{
+	int m;
+	m = -5;
+
+	plus_jeden(&m);
+
+	printf("\n m = %d\n", m);
+	return 0;
+}
+
+.686
+.model flat
+
+public _plus_jeden
+.code
+
+_plus_jeden PROC
+	push ebp
+	mov ebp, esp
+	push ebx
+
+
+	mov ebx, [ebp+8]
+
+	mov eax, [ebx]
+	inc eax
+	mov [ebx], eax
+
+
+	pop ebx
+	pop ebp
+	ret
+
+_plus_jeden ENDP
+			END

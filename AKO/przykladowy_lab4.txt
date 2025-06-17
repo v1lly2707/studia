@@ -1,0 +1,60 @@
+#include <stdio.h>
+int szukaj_max(int a, int b, int c);
+
+int main()
+{
+	int x, y, z, wynik;
+	printf("\nProsze podac trzy liczby calkowite ze znakiem: ");
+	scanf_s("%d %d %d", &x, &y, &z, 32);
+
+	
+	wynik = szukaj_max(x, y, z);
+
+	printf("\nSposrod podanych liczb %d, %d, %d, liczba %d jest najwieksza\n", x, y, z, wynik);
+    
+	return 0;
+
+}
+
+
+
+
+
+.686
+.model flat
+
+public _szukaj_max
+
+.code
+
+_szukaj_max PROC
+	push ebp
+	mov ebp, esp
+
+	mov eax, [ebp+8]
+	cmp eax, [ebp+12]
+	jge x_wieksza
+
+
+	mov eax, [ebp+12]
+	cmp eax,[ebp+16]
+	jge y_wieksza
+
+
+wpisz_z: mov eax, [ebp+16]
+
+zakoncz:
+	pop ebp
+	ret
+
+x_wieksza:
+	cmp eax,[ebp+16]
+	jge zakoncz
+	jmp wpisz_z
+
+y_wieksza:
+	mov eax,[ebp+12]
+	jmp zakoncz
+
+_szukaj_max ENDP
+			END
