@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1111B5-6677-FE88-182F-7EC16F4DE1EA}|biuro_nieruchomosci\\biuro_nieruchomosci.dwproj|C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Biuro Nieruchomosci.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9C1111B5-6677-FE88-182F-7EC16F4DE1EA}|biuro_nieruchomosci\\biuro_nieruchomosci.dwproj|solutionrelative:biuro_nieruchomosci\\Biuro Nieruchomosci.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1111B5-6677-FE88-182F-7EC16F4DE1EA}|biuro_nieruchomosci\\biuro_nieruchomosci.dwproj|C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Agenci.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9C1111B5-6677-FE88-182F-7EC16F4DE1EA}|biuro_nieruchomosci\\biuro_nieruchomosci.dwproj|solutionrelative:biuro_nieruchomosci\\Agenci.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1111B5-6677-FE88-182F-7EC16F4DE1EA}|biuro_nieruchomosci\\biuro_nieruchomosci.dwproj|C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Mieszkania.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9C1111B5-6677-FE88-182F-7EC16F4DE1EA}|biuro_nieruchomosci\\biuro_nieruchomosci.dwproj|solutionrelative:biuro_nieruchomosci\\Mieszkania.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1111B5-6677-FE88-182F-7EC16F4DE1EA}|biuro_nieruchomosci\\biuro_nieruchomosci.dwproj|C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Biuro Nieruchomosci.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9C1111B5-6677-FE88-182F-7EC16F4DE1EA}|biuro_nieruchomosci\\biuro_nieruchomosci.dwproj|solutionrelative:biuro_nieruchomosci\\Biuro Nieruchomosci.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Biuro Nieruchomosci.cube [Design]",
+              "DocumentMoniker": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Biuro Nieruchomosci.cube",
+              "RelativeDocumentMoniker": "biuro_nieruchomosci\\Biuro Nieruchomosci.cube",
+              "ToolTip": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Biuro Nieruchomosci.cube [Design]",
+              "RelativeToolTip": "biuro_nieruchomosci\\Biuro Nieruchomosci.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-22T22:07:24.421Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Agenci.dim [Design]",
+              "DocumentMoniker": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Agenci.dim",
+              "RelativeDocumentMoniker": "biuro_nieruchomosci\\Agenci.dim",
+              "ToolTip": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Agenci.dim [Design]",
+              "RelativeToolTip": "biuro_nieruchomosci\\Agenci.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T13:56:08.167Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mieszkania.dim [Design]",
+              "DocumentMoniker": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Mieszkania.dim",
+              "RelativeDocumentMoniker": "biuro_nieruchomosci\\Mieszkania.dim",
+              "ToolTip": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Mieszkania.dim [Design]",
+              "RelativeToolTip": "biuro_nieruchomosci\\Mieszkania.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T16:02:10.175Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Biuro Nieruchomosci.dsv [Design]",
+              "DocumentMoniker": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Biuro Nieruchomosci.dsv",
+              "RelativeDocumentMoniker": "biuro_nieruchomosci\\Biuro Nieruchomosci.dsv",
+              "ToolTip": "C:\\Nati\\lab4\\lab4\\biuro_nieruchomosci\\biuro_nieruchomosci\\Biuro Nieruchomosci.dsv [Design]",
+              "RelativeToolTip": "biuro_nieruchomosci\\Biuro Nieruchomosci.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T15:54:59.383Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
