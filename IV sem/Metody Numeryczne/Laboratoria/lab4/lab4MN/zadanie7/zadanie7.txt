@@ -1,0 +1,32 @@
+zadanie7
+
+Analiza działania funkcji fzero przy wyznaczaniu miejsc zerowych funkcji tangens (tan) dla dwóch punktów startowych: 4.5 oraz 6.0.
+
+1.Punkt startowy: 4.5
+
+Ten punkt znajduje się blisko asymptoty funkcji tangens, około 3/2*pi. Po wywołaniu fzero(@tan,4.5, options) otrzymałem:
+
+x1 = 4.7124
+
+Obliczona wartość funkcji w tym punkcie to:
+y1 = 5.1019e+14 (bardzo duża liczba)
+
+Dzięki temu widzimy,że ten punkt nie jest miejscem zerowym funkcji tangens. To pokazuje, że wybór punktu startowego w pobliżu asymptoty może prowadzić do złych wyników, gdyż w tych okolicach wartość tangensa dąży do nieskończoności.
+
+
+2. Punkt startowy: 6.0
+
+Tutaj funkcja zwróciła:
+x2 = 6.2832
+
+Oraz:
+y2 = -2.4493e-16
+
+Wartość ta jest niemal równa 0, stąd wiemy że mamy do czynienia z prawidłowym miejscem zerowym funkcji tangens, punkt 6.0 znajduje się blisko rzeczywistego miejsca zerowego funkcji tangens (około 2*pi)
+
+
+Wnioski:
+- wybór punktu startowego ma kluczowe znaczenie dla skuteczności działania funkcji fzero w przypadku funkcji tangens.
+- punkt 4.5, znajdujący się w pobliżu asymptoty, doprowadził do błędnego miejsca zerowego z bardzo dużą wartością funkcji.
+- punkt 6.0 był lepszym wyborem i umożliwił dokładne znalezienie miejsca zerowego.
+- w przypadku funkcji z asymptotami (jak tangens) należy unikać punktów startowych bliskich tym asymptotom, aby uniknąć błędów 
