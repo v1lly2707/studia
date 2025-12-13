@@ -1,0 +1,357 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ad54eba4-7e7e-49fb-ae85-41c908efe75f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Mieszkania</ID>
+  <Name>Mieszkania</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2594" scrolltop="-1070" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9144" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mieszkania" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3916" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Mieszkania" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2594</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1070</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a4c5d613-cbaf-43d1-9392-5d24a34864a4">
+    <DataSourceViewID>Biuro Nieruchomosci</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="93a4c858-b134-40eb-875a-170812bbf100">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="24abddd5-0b5f-463c-9809-7d3223af9766">
+      <ID>ID Mieszkania</ID>
+      <Name>ID Mieszkania</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="21cecb68-da6c-43b9-a842-210cf638ddb5">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e97b67c1-78bf-42f6-a9be-8247bdecb034">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>ID_mieszkania</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="db99e821-7c8b-4e51-a4af-04ab7571feed">
+          <AttributeID>Miasto</AttributeID>
+          <Name>Miasto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9929c91b-30e0-4c7d-91a4-d214f35d09e4">
+          <AttributeID>Ulica</AttributeID>
+          <Name>Ulica</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0dd53768-afbd-4aae-b6a8-ccc54bd8f34b">
+          <AttributeID>Numer Budynku</AttributeID>
+          <Name>Numer Budynku</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d9ace67f-79dd-441d-9f2d-d167e0591cc0">
+          <AttributeID>Numer Mieszkania</AttributeID>
+          <Name>Numer Mieszkania</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="da501a17-43c7-40bd-82dc-76f203a31f42">
+          <AttributeID>Pietro</AttributeID>
+          <Name>Pietro</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="485f8bae-e941-49ac-a3e2-ec5027bbb07f">
+          <AttributeID>Liczba Pokoi</AttributeID>
+          <Name>Liczba Pokoi</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c37134a4-874c-4a42-908b-17f636712e95">
+          <AttributeID>Wielkosc Mieszkania</AttributeID>
+          <Name>Wielkosc Mieszkania</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aa9ee152-0182-4d55-bd03-12007cb326e6">
+          <AttributeID>Cena</AttributeID>
+          <Name>Cena</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f5215799-c3b2-45dc-866f-36b58385ed88">
+          <AttributeID>Lata Budowy</AttributeID>
+          <Name>Lata Budowy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7d914e49-b94a-4ab9-a140-2612872c7a54">
+          <AttributeID>Miejsce Parkingowe</AttributeID>
+          <Name>Miejsce Parkingowe</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0d9611c8-b1cb-455e-b251-32d0a9d32f87">
+          <AttributeID>Komorka Lokatorska</AttributeID>
+          <Name>Komorka Lokatorska</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="af162157-bf3b-40e2-ba5b-793e6c7deb05">
+          <AttributeID>Stan Mieszkania</AttributeID>
+          <Name>Stan Mieszkania</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9b9cf122-a4e5-41da-b83a-3eec1ec0cf6f">
+          <AttributeID>Balkon</AttributeID>
+          <Name>Balkon</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7fe57c67-bff1-4ee3-ac74-3c7121b76ff3">
+      <ID>Miasto</ID>
+      <Name>Miasto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7c30a426-edb1-46e8-89ae-059b631f19f2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65d8764b-9bb1-4325-90d5-1145e20ad68b">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Miasto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b6fedf33-71d5-4198-b1cf-ae9862f41b02">
+      <ID>Ulica</ID>
+      <Name>Ulica</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dd2a834a-29eb-4f56-af67-dafc20cf3f74">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4bf4a3a-3e88-4b48-b653-60e459ed310e">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Ulica</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="01fdbc56-e86e-48a0-9b3b-51096b80b09d">
+      <ID>Numer Budynku</ID>
+      <Name>Numer Budynku</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="626f2f32-d164-438c-9148-b58fcf5bea68">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b83db199-9570-482b-9eee-9b704e9f07d0">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Numer_budynku</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e6b57925-2148-41c4-a67d-be1fdb628c1e">
+      <ID>Numer Mieszkania</ID>
+      <Name>Numer Mieszkania</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3e748556-c6ab-499a-b80a-2652bf571f9d">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29c3bb60-172a-4b54-9e7d-b264b706557e">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Numer_mieszkania</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="662eebc3-6d17-4cbf-92e3-dfb629ada317">
+      <ID>Pietro</ID>
+      <Name>Pietro</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ff71929-13f7-4624-aac1-6c283b958f23">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b061d348-7168-4dc8-9449-1162f7a63070">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Pietro</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="025132a2-429f-4a97-a209-363fba39272c">
+      <ID>Liczba Pokoi</ID>
+      <Name>Liczba Pokoi</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a3ba3381-95c1-42d9-9bdc-64dd16ec2a58">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="051e4762-95be-44ad-8b76-11776d537190">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Liczba_pokoi</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a97eaca9-7282-4fca-bae9-a95bf7aa6068">
+      <ID>Wielkosc Mieszkania</ID>
+      <Name>Wielkosc Mieszkania</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="61cdc730-1c14-4b1d-8b55-a7d3d7070853">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1eed835-d536-41c2-a5b7-6bc14ef72701">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Wielkosc_mieszkania</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="877de6a1-ea9a-4b46-87bc-2d0e7a61e537">
+      <ID>Cena</ID>
+      <Name>Cena</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a3fdfb7-77da-4bfb-af08-6e89072b6379">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d3b47b36-fba8-43e9-b136-3d6242eac966">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Cena</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b644ee7d-bc9c-493d-bc9a-5f1613a37abb">
+      <ID>Lata Budowy</ID>
+      <Name>Lata Budowy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0f9c5f47-4c9d-48e8-81bb-3ca4c578026a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0614121f-8f42-4b47-87c9-801a458086b1">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Lata_budowy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cfaa472b-0973-45fe-afb5-450dd6bb2d95">
+      <ID>Miejsce Parkingowe</ID>
+      <Name>Miejsce Parkingowe</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e6755189-dcde-401e-a5a2-571bff71821b">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="775102c4-452f-40a1-ae5a-86ca6695c979">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Miejsce_parkingowe</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="775228d5-30b6-417a-862a-d50331bbf676">
+      <ID>Komorka Lokatorska</ID>
+      <Name>Komorka Lokatorska</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="077641bf-c8a6-40ba-b4f0-e3dae2cbdb4a">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d874fca-a0fe-46e5-ad76-a157f69d8d21">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Komorka_lokatorska</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cf26c41d-e712-41ed-a44e-a9ea1c8c7293">
+      <ID>Stan Mieszkania</ID>
+      <Name>Stan Mieszkania</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8aa2beeb-0386-4b3a-8d6e-4b52183a161e">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8df6d1ae-308f-4b52-8b23-228c88546790">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Stan_mieszkania</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fc34393c-fac2-46ff-8ca7-0f4c13419902">
+      <ID>Balkon</ID>
+      <Name>Balkon</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3089d72f-55f3-4666-bb4b-562d68dfb6bb">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fc213d1-3bda-4bc5-ada6-68e76c1123b5">
+            <TableID>dbo_Mieszkania</TableID>
+            <ColumnID>Balkon</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
