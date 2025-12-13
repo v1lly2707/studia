@@ -1,0 +1,101 @@
+ID_prezentacji;ID_mieszkania;ID_spotkania;Godzina_rozpoczecia;Godzina_zakonczenia;Decyzja_klienta;Powod_odmowy
+1;MW00063;22;14:30;15:03;rezerwacja;
+2;MW00037;31;15:30;16:28;odmowa;inna oferta
+3;MW00086;42;14:00;14:47;rezerwacja;
+4;MW00068;31;11:45;12:05;do negocjacji;
+5;MW00036;50;16:15;17:25;odmowa;brak zainteresowania
+6;MW00036;12;15:30;16:31;do negocjacji;
+7;MW00009;47;14:15;14:42;odmowa;metraż
+8;MW00024;3;14:30;15:09;brak decyzji;
+9;MW00041;45;16:15;17:01;rezerwacja;
+10;MW00085;26;11:30;12:01;brak decyzji;
+11;MW00008;44;14:15;14:32;akceptacja;
+12;MW00033;3;17:00;17:40;odmowa;brak finansowania
+13;MW00012;10;16:00;17:12;akceptacja;
+14;MW00097;31;09:45;10:56;odmowa;brak zainteresowania
+15;MW00007;33;10:45;12:03;do negocjacji;
+16;MW00043;6;16:45;17:55;odmowa;lokalizacja
+17;MW00045;45;14:15;14:35;brak decyzji;
+18;MW00012;26;13:15;14:35;odmowa;lokalizacja
+19;MW00020;45;14:15;15:43;akceptacja;
+20;MW00047;8;12:30;12:59;do negocjacji;
+21;MW00013;50;14:15;14:51;rezerwacja;
+22;MW00055;36;11:00;12:23;brak decyzji;
+23;MW00073;36;09:30;10:10;odmowa;inne
+24;MW00050;5;17:30;19:00;brak decyzji;
+25;MW00041;16;17:00;18:30;brak decyzji;
+26;MW00014;21;13:00;13:41;akceptacja;
+27;MW00003;23;13:45;14:31;rezerwacja;
+28;MW00001;1;14:15;15:24;rezerwacja;
+29;MW00008;44;09:45;10:50;brak decyzji;
+30;MW00038;8;15:30;15:58;do negocjacji;
+31;MW00081;33;15:30;15:45;akceptacja;
+32;MW00053;50;10:45;12:10;odmowa;metraż
+33;MW00096;25;15:00;15:36;rezerwacja;
+34;MW00044;39;15:30;15:48;do negocjacji;
+35;MW00040;50;09:15;10:04;rezerwacja;
+36;MW00018;36;13:30;13:53;rezerwacja;
+37;MW00032;10;10:45;11:23;akceptacja;
+38;MW00038;42;15:30;16:50;do negocjacji;
+39;MW00044;21;14:30;15:26;akceptacja;
+40;MW00029;35;10:30;11:53;brak decyzji;
+41;MW00066;23;14:45;15:18;brak decyzji;
+42;MW00093;12;14:45;15:06;brak decyzji;
+43;MW00047;39;14:15;14:40;akceptacja;
+44;MW00094;27;17:45;18:18;brak decyzji;
+45;MW00059;50;16:00;17:20;do negocjacji;
+46;MW00003;49;16:15;17:15;odmowa;metraż
+47;MW00043;5;12:00;12:40;brak decyzji;
+48;MW00082;6;10:45;11:41;odmowa;inne
+49;MW00006;47;13:00;14:19;do negocjacji;
+50;MW00093;48;14:15;15:17;do negocjacji;
+51;MW00017;26;16:00;16:46;brak decyzji;
+52;MW00041;16;11:00;12:18;brak decyzji;
+53;MW00049;14;17:30;18:10;do negocjacji;
+54;MW00074;50;12:45;13:57;rezerwacja;
+55;MW00078;15;14:45;16:10;odmowa;brak zainteresowania
+56;MW00035;43;16:00;16:59;brak decyzji;
+57;MW00062;47;12:45;13:02;akceptacja;
+58;MW00022;12;09:30;10:59;odmowa;lokalizacja
+59;MW00043;30;12:00;12:20;odmowa;brak zainteresowania
+60;MW00039;3;14:00;15:10;rezerwacja;
+61;MW00016;30;16:30;17:19;odmowa;brak finansowania
+62;MW00030;4;15:30;15:49;rezerwacja;
+63;MW00075;22;14:45;15:26;rezerwacja;
+64;MW00091;47;14:00;15:05;akceptacja;
+65;MW00071;11;09:30;10:45;odmowa;inne
+66;MW00012;45;13:45;15:04;akceptacja;
+67;MW00070;38;12:30;13:08;do negocjacji;
+68;MW00028;31;10:45;11:36;odmowa;inna oferta
+69;MW00049;32;11:00;12:25;brak decyzji;
+70;MW00095;18;10:00;10:52;do negocjacji;
+71;MW00078;22;11:30;11:45;rezerwacja;
+72;MW00081;24;16:15;17:09;akceptacja;
+73;MW00015;36;13:30;14:31;do negocjacji;
+74;MW00077;45;10:15;10:34;akceptacja;
+75;MW00012;7;12:30;13:07;akceptacja;
+76;MW00003;37;09:45;11:07;rezerwacja;
+77;MW00099;4;12:00;12:58;rezerwacja;
+78;MW00019;42;15:15;16:20;do negocjacji;
+79;MW00051;38;17:30;18:16;akceptacja;
+80;MW00002;7;10:45;11:15;odmowa;brak finansowania
+81;MW00085;15;09:00;10:13;do negocjacji;
+82;MW00045;13;15:15;16:30;odmowa;inne
+83;MW00002;48;09:00;09:52;rezerwacja;
+84;MW00052;1;10:30;11:04;akceptacja;
+85;MW00092;1;16:15;16:53;odmowa;inna oferta
+86;MW00062;26;17:45;18:28;brak decyzji;
+87;MW00032;24;16:30;17:40;rezerwacja;
+88;MW00076;45;12:45;13:05;akceptacja;
+89;MW00074;15;11:15;12:41;odmowa;cena
+90;MW00066;42;09:15;09:37;odmowa;metraż
+91;MW00036;28;13:45;14:50;rezerwacja;
+92;MW00094;29;16:15;17:14;do negocjacji;
+93;MW00015;49;14:45;15:19;brak decyzji;
+94;MW00049;25;09:15;10:02;akceptacja;
+95;MW00075;2;11:30;11:46;brak decyzji;
+96;MW00096;25;09:30;09:54;rezerwacja;
+97;MW00031;25;16:45;17:23;rezerwacja;
+98;MW00049;31;15:45;17:07;brak decyzji;
+99;MW00060;21;09:00;10:27;akceptacja;
+100;MW00006;35;09:00;09:17;brak decyzji;

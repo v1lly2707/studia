@@ -1,0 +1,21 @@
+PESEL;Imie;Nazwisko;Plec;Data_urodzenia;Nr_telefonu;Email;Dostepny_budzet;Preferowana_lokalizacja;Preferowany_metraz;Preferowana_liczba_pokoi;Miejsce_parkingowe;Komorka_lokatorska;Preferowany_stan_mieszkania;Balkon
+82103022622;Kamila;Bruzda;K;1982-10-30;+48 783 174 693;makuratrozalia@example.com;1890450.03;Starogard Gdański;28;2;True;False;surowy;False
+66012424140;Hubert;Ferdyn;M;1966-01-24;792 647 212;damiantomalak@example.org;1303958.8;Gniezno;98;5;False;False;deweloperski;False
+89072650748;Krystian;Klęczar;M;1989-07-26;+48 510 038 695;qpacocha@example.com;1115189.97;Koszalin;60;1;False;True;pod klucz;True
+85061477657;Gaja;Kurant;K;1985-06-14;+48 609 539 635;marekgornisiewicz@example.com;1577317.01;Nowy Targ;33;5;True;False;surowy;True
+76050982184;Maksymilian;Błaszyk;M;1976-05-09;+48 798 054 192;igor70@example.org;1172323.68;Białogard;30;1;True;True;deweloperski;True
+79090833393;Eryk;Piekara;M;1979-09-08;723 252 860;mazanelzbieta@example.org;673622.23;Jasło;45;2;True;True;deweloperski;True
+82050475104;Konrad;Turoń;M;1982-05-04;887 893 671;fabiankulczak@example.net;1280189.92;Skawina;96;5;True;False;pod klucz;False
+63111112284;Julita;Gryszkiewicz;K;1963-11-11;22 494 09 46;jedrzejslowiak@example.net;1604720.01;Szczecinek;48;5;False;False;pod klucz;False
+71090850727;Nicole;Wowra;K;1971-09-08;+48 32 151 64 63;wywialangelika@example.net;698051.08;Lublin;28;1;False;True;deweloperski;False
+79102745584;Marianna;Bak;K;1979-10-27;793 744 443;tymon76@example.net;1298984.57;Zabrze;105;3;True;True;surowy;False
+99053036483;Karina;Szyguła;K;1999-05-30;+48 792 393 754;hwziatek@example.org;1949389.29;Łaziska Górne;31;2;True;False;surowy;False
+87011646025;Ernest;Tłuczek;M;1987-01-16;727 483 777;wniewiara@example.com;1592663.6;Oleśnica;84;3;False;False;deweloperski;True
+85102131371;Melania;Dynia;K;1985-10-21;+48 530 683 850;sara42@example.com;1539975.69;Starogard Gdański;75;1;True;True;surowy;False
+85091172005;Kamil;Sabak;M;1985-09-11;22 832 36 76;horbaczdorota@example.com;1574620.0;Kołobrzeg;147;1;False;True;surowy;False
+64051649528;Emil;Pitek;M;1964-05-16;609 511 192;goszdorota@example.org;1159425.41;Brzeg;92;3;True;True;pod klucz;True
+70121514672;Przemysław;Małysiak;M;1970-12-15;782 979 518;tgill@example.net;610100.8;Piotrków Trybunalski;125;3;True;False;surowy;True
+80032305955;Ryszard;Odrzywołek;M;1980-03-23;729 070 118;ugogola@example.net;206328.07;Konin;83;5;False;True;deweloperski;False
+87102984782;Krystian;Jażdżyk;M;1987-10-29;579 863 176;gosmaurycy@example.org;1632924.15;Chorzów;100;5;False;True;pod klucz;False
+90011548075;Michał;Mironiuk;M;1990-01-15;510 659 835;csobkiewicz@example.org;1349152.07;Chorzów;120;5;True;False;deweloperski;False
+77082131098;Inga;Panasiewicz;K;1977-08-21;+48 509 347 161;gajacapala@example.org;1780608.63;Sochaczew;49;5;False;False;deweloperski;False
