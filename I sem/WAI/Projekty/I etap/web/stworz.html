@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>Movies & TV series</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+
+		<meta name="description" content="Najlepsze filmy i seriale w jednym"/>
+		<meta name="keywords" content="film,serial,najlepsze,movies,TV series, recenzje, wybierz"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<link rel="stylesheet" href="stworz.css" type="text/css"/>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+        
+
+
+		
+		
+	
+
+		
+	</head>
+   <body>
+		<div id="container">
+
+			<header>
+				<a href="index.html"><h1>Movies & TV series</h1></a>
+            </header>
+
+			<nav class="menu"> 
+                
+                
+                <div class="dropdown">
+                   
+                    <a href="index.html"><strong>Strona główna</strong></a>
+                    <ul>
+                        <li><a href="historia.html"><strong>Krótka historia</strong></a></li>
+                        <li><a href="aktorzy.html"><strong>Aktorzy</strong></a></li>
+                        <li><a href="rezyser.html"><strong>Reżyserowie</strong></a></li>
+                    </ul>
+                </div>
+                
+                <a class="active" href="recenzje.html"><strong>Recenzje</strong></a>
+                <a class="active" href="wybierz.html"><strong>Zamów</strong></a>
+				<a href="stworz.html"><strong>Stwórz</strong></a>
+			</nav>
+            
+         	<div id="content"> 
+
+				<h3><strong>Stwórz swojego idealnego aktora</strong></h3>	
+				
+				
+				
+				  
+				<form  action="odbierz.php" method="post">
+
+					<div id="left">
+
+					
+					Imię&nbsp;<input name="Imię" type="text" placeholder="Podaj imię"><br>
+					Nazwisko&nbsp;<input name="Nazwisko" type="text" placeholder="Podaj nazwisko"><br>
+					
+					
+					<div class="pytanie">
+						<p>Wybierz płeć</p>
+						<label><input type="radio" name="gatunek" value="kobieta">Kobieta</label><br>
+						<label><input type="radio" name="gatunek" value="mezczyzna">Mężczyzna</label><br>
+						
+					</div>
+					
+
+					<div class="pytanie">
+						<p>Kolor oczu</p>
+						<select name="serial" multiple size="3">
+							<option selected>niebieski</option>
+							<option>brązowy</option>
+							<option>zielony</option>
+							
+
+						</select>
+					</div>
+					<div class="pytanie">
+						<p>Gatunki filmów, w których występuje</p>
+						<label><input type="checkbox" name="aktor" value="1">Komedia</label><br>
+						<label><input type="checkbox" name="aktor" value="2">Dramat</label><br>
+						<label><input type="checkbox" name="aktor" value="3">Horror</label><br>
+						<label><input type="checkbox" name="aktor" value="4">Fantasy</label><br>
+						<label><input type="checkbox" name="aktor" value="5">Thriller</label><br>
+						<label><input type="checkbox" name="aktor" value="6">Sci-Fi</label><br>
+					</div>
+
+					<div class="pytanie">
+						<p>Reżyser, z którym ma najwięcej powiązań</p>
+						<select name="Godziny">
+							<option selected>Quentin Tarantino</option>
+							<option>Christopher Nolan</option>
+							<option>Mel Gibson</option>
+							
+						</select>
+					</div>
+
+					
+					
+					
+					<div class="przycisk">
+						<input type="submit" value="Wyślij"/>
+						<input type="reset" value="Zresetuj"/>
+					</div>
+
+					
+
+					</div>
+
+
+					
+						
+                        <div style="width: 50%; margin: 0 auto; clear: both;">
+                            
+                            Kraj pochodzenia
+                            <div>
+                                <input type="text" name="country" id="autocomplete-dynamic" style="width: 100%; border-width: 5px;"/>
+                            </div>
+                        </div>
+						
+						
+					
+
+					
+					
+
+					
+					
+					
+					
+				
+				
+				</form>
+			</div>
+
+			
+			
+		
+		</div>
+		<footer>
+             © 2023 movies&tvseries All Rights Reserved. Filip Świniarski 
+
+        </footer>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/jquery-mockjax@2.6.0/dist/jquery.mockjax.js"></script>
+        <script type="text/javascript" src="src/jquery.autocomplete.js"></script>
+        <script type="text/javascript" src="scripts/countries.js"></script>
+        <script type="text/javascript" src="scripts/demo.js"></script>
+	</body>
+</html>

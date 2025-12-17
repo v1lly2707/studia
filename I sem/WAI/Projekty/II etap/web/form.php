@@ -1,0 +1,97 @@
+<?php
+
+    session_start();
+
+?>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>Movies & TV series</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+
+		<meta name="description" content="Najlepsze filmy i seriale w jednym"/>
+		<meta name="keywords" content="film,serial,najlepsze,movies,TV series, recenzje, wybierz"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<link rel="stylesheet" href="wybierz.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+		
+
+
+
+		
+	</head>
+
+   	<body>
+		
+	<div id="container">
+
+		<header>
+			
+			<a href="index.php"><h1>Movies & TV series</h1></a>
+
+			
+        </header>
+
+		<nav class="menu">
+            <div class="przycisk">
+                <input type="button" value="Dodaj zdjecie" onClick="location.href='form.php';" />
+            </div>
+            <?php
+            if (isset($_SESSION['user_id'])) {
+                
+                echo '<div class="przycisk">';
+                echo '<a href="logout.php">Wyloguj</a>';
+                echo '</div>';
+            } else {
+                
+                echo '<div class="przycisk">';
+                echo '<input type="button" value="Logowanie" onClick="location.href=\'login.php\';" />';
+                echo '</div>';
+            }
+            ?>
+        </nav>
+            
+        <div id="content"> 
+
+				
+				
+				
+				  
+			<form  action="dodajzdjecie.php" method="post"  enctype="multipart/form-data">
+
+				<div id="left">
+
+					
+				Autor&nbsp;<input name="author" type="text" placeholder="Podaj swoj nick lub imie i nazwisko" ><br>
+				Tytul&nbsp;<input name="title" type="text" placeholder="Podaj tytul"><br><br>
+                Wybierz zdjecie&nbsp;<input name="image" type="file"><br><br>
+                Znak wodny&nbsp;<input name="watermark" type="text" placeholder="Jako znak wodny dodaj imie i nazwisko aktora">
+					
+
+                <div class="przycisk">
+					
+					<input type="submit" value="Dodaj zdjęcie"/>
+						
+				</div>
+
+            </form>
+					
+		</div>
+	
+	</div>
+		
+
+		<footer>
+
+             © 2023 movies&tvseries All Rights Reserved. Filip Świniarski 
+
+        </footer>
+	</body>
+</html>
+
+
+    

@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>Movies & TV series</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+
+		<meta name="description" content="Najlepsze filmy i seriale w jednym"/>
+		<meta name="keywords" content="film,serial,najlepsze,movies,TV series, recenzje, wybierz"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<link rel="stylesheet" href="wybierz.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+		<script>
+		$( function() {
+		  $( "#datepicker" ).datepicker({
+			showButtonPanel: true
+		  });
+		} );
+		</script>
+
+
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+		<script>
+		$( function() {
+		$( "#dialog-confirm" ).dialog({
+			resizable: false,
+			height: "auto",
+			width: 400,
+			modal: true,
+			buttons: {
+			"Wypełniam": function() {
+				$( this ).dialog( "close" );
+			},
+			"Strona główna": function() {
+				$( this ).dialog( "close" );
+				window.location="index.html";
+			}
+			}
+		});
+		} );
+		</script>
+
+		
+	</head>
+   <body>
+		<div id="container">
+
+			<header>
+				<a href="index.html"><h1>Movies & TV series</h1></a>
+            </header>
+
+			<nav class="menu"> 
+                
+                
+                <div class="dropdown">
+                   
+                    <a href="index.html"><strong>Strona główna</strong></a>
+                    <ul>
+                        <li><a href="historia.html"><strong>Krótka historia</strong></a></li>
+                        <li><a href="aktorzy.html"><strong>Aktorzy</strong></a></li>
+                        <li><a href="rezyser.html"><strong>Reżyserowie</strong></a></li>
+                    </ul>
+                </div>
+                
+                <a class="active" href="recenzje.html"><strong>Recenzje</strong></a>
+                <a class="active" href="wybierz.html"><strong>Zamów</strong></a>
+				<a href="stworz.html"><strong>Stwórz</strong></a>
+			</nav>
+            
+         	<div id="content"> 
+
+				
+				
+				
+				  
+				<form  action="odbierz.php" method="post">
+
+					<div id="left">
+
+					
+					Imię&nbsp;<input name="Imię" type="text" placeholder="Podaj swoje imię"><br>
+					Nazwisko&nbsp;<input name="Nazwisko" type="text" placeholder="Podaj swoje nazwisko"><br>
+					E-mail&nbsp;<input name="E-mail" type="email" placeholder="Podaj swój e-mail">
+					
+					<div class="pytanie">
+						<p>Ulubiony gatunek filmowy</p>
+						<label><input type="radio" name="gatunek" value="komedia">Komedia</label><br>
+						<label><input type="radio" name="gatunek" value="dramat">Dramat</label><br>
+						<label><input type="radio" name="gatunek" value="horror">Horror</label><br>
+						<label><input type="radio" name="gatunek" value="fantasy">Fantasy</label><br>
+						<label><input type="radio" name="gatunek" value="thriller">Thriller</label><br>
+						<label><input type="radio" name="gatunek" value="sci-fi">Sci-fi</label><br>
+					</div>
+					<div class="pytanie">
+						<p>Ulubiony film</p>
+						<label><input type="radio" name="film" value="1">Oppenheimer</label><br>
+						<label><input type="radio" name="film" value="2">Ojciec chrzestny</label><br>
+						<label><input type="radio" name="film" value="3">Scarface</label><br>
+						<label><input type="radio" name="film" value="4">Barbie</label><br>
+						<label><input type="radio" name="film" value="5">Napoleon</label><br>
+						<label><input type="radio" name="film" value="6">Titanic</label><br>
+						<label><input type="radio" name="film" value="7">Dunkierka</label><br>
+						<label><input type="radio" name="film" value="8">O jeden most za daleko</label><br>
+					</div>
+
+					<div class="pytanie">
+						<p>Ulubiony serial</p>
+						<select name="serial" multiple size="3">
+							<option selected>Narcos</option>
+							<option>Peaky Blinders</option>
+							<option>Breaking Bad</option>
+							<option>La Casa de Papel</option>
+							<option>Mur</option>
+							<option>House of Cards</option>
+							<option>New Amsterdam</option>
+							<option>Kto zabił Sarę?</option>
+							<option>13 powodów</option>
+
+						</select>
+					</div>
+					<div class="pytanie">
+						<p>Ulubiony aktor</p>
+						<label><input type="checkbox" name="aktor" value="1">Leonardo DiCaprio</label><br>
+						<label><input type="checkbox" name="aktor" value="2">Will Smith</label><br>
+						<label><input type="checkbox" name="aktor" value="3">Al Pacino</label><br>
+						<label><input type="checkbox" name="aktor" value="4">Andrew Garfield</label><br>
+						<label><input type="checkbox" name="aktor" value="5">Chris Hemsworth</label><br>
+						<label><input type="checkbox" name="aktor" value="6">Brad Pitt </label><br>
+					</div>
+
+					<div class="pytanie">
+						<p>Ile godzin tygodniowo spędzasz na oglądaniu filmów i seriali?</p>
+						<select name="Godziny">
+							<option selected>1-5</option>
+							<option>5-15</option>
+							<option>>15</option>
+							
+						</select>
+					</div>
+
+					
+					
+					
+					<div class="przycisk">
+						<input type="submit" value="Wyślij"/>
+						<input type="reset" value="Zresetuj"/>
+					</div>
+
+					
+
+					</div>
+
+
+					<div id="data" class="magik">
+						<p>Wybierz termin dostawy swojej darmowej gazety <input type="text" id="datepicker"></p>
+						
+						<button type="button" class="guzik" onclick="displayCoords()">Wyświetl adres dostawy</button>
+
+						
+						
+					</div>
+
+					
+					<div id="dialog-confirm" title="Uwaga" class="magik">
+						<p><span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span>Wypełnij tą ankietę,aby otrzymać darmową gazetę i codzienne powiadomienia o nadchodzących premierach kinowych</p>
+					</div>
+
+					
+					
+					
+					
+				
+				
+				</form>
+			</div>
+
+			
+			
+		
+		</div>
+		<footer>
+             © 2023 movies&tvseries All Rights Reserved. Filip Świniarski 
+
+        </footer>
+
+		<script src="navigator.js"></script>
+	</body>
+</html>

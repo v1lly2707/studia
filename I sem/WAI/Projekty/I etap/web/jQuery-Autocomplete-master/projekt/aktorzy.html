@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>Movies & TV series</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+
+		<meta name="description" content="Najlepsze filmy i seriale w jednym"/>
+		<meta name="keywords" content="film,serial,najlepsze,movies,TV series, recenzje, wybierz"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<link rel="stylesheet" href="aktorzy.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:wght@300&display=swap" rel="stylesheet">
+		
+
+	</head>
+   <body>
+		<div id="container">
+
+			<header>
+				<a href="index.html"><h1>Movies & TV series</h1></a>
+            </header>
+
+			<nav class="menu" style="z-index: 99;"> 
+                
+                
+                <div class="dropdown">
+                   
+                    <a href="index.html"><strong>Strona główna</strong></a>
+                    <ul>
+                        <li><a href="historia.html"><strong>Krótka historia</strong></a></li>
+                        <li><a href="aktorzy.html"><strong>Aktorzy</strong></a></li>
+                        <li><a href="rezyser.html"><strong>Reżyserowie</strong></a></li>
+                    </ul>
+                </div>
+                
+                <a class="active" href="recenzje.html"><strong>Recenzje</strong></a>
+                <a class="active" href="wybierz.html"><strong>Zamów</strong></a>
+				<a href="stworz.html"><strong>Stwórz</strong></a>
+			</nav>
+
+
+			<div id="content"> 
+	
+				<h2><strong><strong>Najlepsi aktorzy w historii</strong></strong></h2>
+				<div id="moja">
+					
+
+				</div>
+				<br>
+				
+				<button id="polska" onclick="changeStyle()" class="magik">
+					Zmień tryb
+				</button>
+				
+
+				<ul class="gallery modifyGallery">
+					<li class="thumbnail"><img tabindex="0" src="img/alpacino.jpg" alt="" width="200" height="200"><strong>Al Pacino</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/bale.jpg" alt="" width="200" height="200"><strong>Christian Bale</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/cruise.jpg" alt="" width="200" height="200"><strong>Tom Cruise</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/depp.jpg" alt="" width="200" height="200"><strong>Johnny Depp</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/dicaprio2.jpeg" alt="" width="200" height="200"><strong>Leonardo DiCaprio</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/hanks.jpg" alt="" width="200" height="200"><strong>Tom Hanks</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/hardy.jpg" alt="" width="200" height="200"><strong>Tom Hardy</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/hemsworth.jpg" alt="" width="200" height="200"><strong>Chris Hemsworth</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/hiddleston.jpg" alt="" width="200" height="200"><strong>Tom Hiddleston</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/phoenix.jpg" alt="" width="200" height="200"><strong>Joaquin Phoenix</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/pitt.jpg" alt="" width="200" height="200"><strong>Brad Pitt</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/rdj.jpg" alt="" width="200" height="200"><strong>Robert Downey Jr.</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/smith.jpg" alt="" width="200" height="200"><strong>Will Smith</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/spacey.jpg" alt="" width="200" height="200"><strong>Kevin Spacey</strong></li>
+					<li class="thumbnail"><img tabindex="0" src="img/waltz.jpg" alt="" width="200" height="200"><strong>Christoph Waltz</strong></li>
+		
+				</ul>
+
+				<div class="popup hidden">
+					<button aria-label="Zamknij popup" class="popup__close">X</button>
+					<img src="img/alpacino.jpg" alt="" class="popup__img">
+					<button aria-label="Poprzednie zdjęcie" class="popup__arrow popup__arrow--left"> &lt; </button>
+					<button aria-label="Następne zdjęcie" class="popup__arrow popup__arrow--right">></button>
+
+				</div>
+
+				<a href="#top"><strong>Powrót do góry strony</strong></a>
+
+			
+		
+			
+			</div>
+            
+			
+			
+			
+		
+		</div>
+		<footer>
+             © 2023 movies&tvseries All Rights Reserved. Filip Świniarski 
+
+        </footer>
+		<script src="app.js"></script>
+		<script src="modifyGallery.js">	</script>
+
+		
+	</body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>Movies & TV series</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+
+		<meta name="description" content="Najlepsze filmy i seriale w jednym"/>
+		<meta name="keywords" content="film,serial,najlepsze,movies,TV series, recenzje, wybierz"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<link rel="stylesheet" href="rezyser.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+
+	</head>
+   <body>
+		<div id="container">
+
+			<header>
+				<a href="index.html"><h1>Movies & TV series</h1></a>
+            </header>
+
+			<nav class="menu" style="z-index: 99;"> 
+                
+                
+                <div class="dropdown">
+                   
+                    <a href="index.html"><strong>Strona główna</strong></a>
+                    <ul>
+                        <li><a href="historia.html"><strong>Krótka historia</strong></a></li>
+                        <li><a href="aktorzy.html"><strong>Aktorzy</strong></a></li>
+                        <li><a href="rezyser.html"><strong>Reżyserowie</strong></a></li>
+                    </ul>
+                </div>
+                
+                <a class="active" href="recenzje.html"><strong>Recenzje</strong></a>
+                <a class="active" href="wybierz.html"><strong>Zamów</strong></a>
+				<a href="stworz.html"><strong>Stwórz</strong></a>
+			</nav>
+            
+         	<div id="content" > 
+	
+					<h2><strong><strong>Najlepsi reżyserzy w historii</strong></strong></h2>
+					
+
+					<ul class="gallery">
+						<li class="thumbnail"><img tabindex="0" src="img/nolan.jpeg" alt="" width="200" height="200"><strong>Christopher Nolan</strong></li>
+						<li class="thumbnail"><img tabindex="0" src="img/tarantino.jpg" alt="" width="200" height="200"><strong>Quentin Tarantino</strong></li>
+						<li class="thumbnail"><img tabindex="0" src="img/scorsese.jpg" alt="" width="200" height="200"><strong>Martin Scorsese</strong></li>
+						<li class="thumbnail"><img tabindex="0" src="img/fincher.jpg" alt="" width="200" height="200"><strong>David Fincher</strong></li>
+						<li class="thumbnail"><img tabindex="0" src="img/forman.jpeg" alt="" width="200" height="200"><strong>Milos Forman</strong></li>
+						<li class="thumbnail"><img tabindex="0" src="img/darabont.jpeg" alt="" width="200" height="200"><strong>Frank Darabont</strong></li>
+						<li class="thumbnail"><img tabindex="0" src="img/gibson.jpg" alt="" width="200" height="200"><strong>Mel Gibson</strong></li>
+						<li class="thumbnail"><img tabindex="0" src="img/hitchcock.jpg" alt="" width="200" height="200"><strong>Alfred Hitchcock</strong></li>
+						<li class="thumbnail"><img tabindex="0" src="img/wajda.jpg" alt="" width="200" height="200"><strong>Andrzej Wajda</strong></li>
+			
+					</ul>
+
+					<div class="popup hidden">
+						<button aria-label="Zamknij popup" class="popup__close">X</button>
+						<img src="img/nolan.jpeg" alt="" class="popup__img">
+						<button aria-label="Poprzednie zdjęcie" class="popup__arrow popup__arrow--left"> &lt; </button>
+						<button aria-label="Następne zdjęcie" class="popup__arrow popup__arrow--right">></button>
+
+					</div>
+
+
+				
+			
+				
+			</div>
+
+			
+			
+		
+		</div>
+		<footer>
+             © 2023 movies&tvseries All Rights Reserved. Filip Świniarski 
+
+        </footer>
+		<script src="app.js"></script>
+	</body>
+</html>
