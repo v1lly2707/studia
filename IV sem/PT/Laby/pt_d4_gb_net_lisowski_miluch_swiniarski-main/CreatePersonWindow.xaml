@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp1.CreatePersonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Person" Height="300" Width="400">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox x:Name="NameTextBox" Text="Imię" Margin="0,0,0,10" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
+            <TextBox x:Name="HeightTextBox" Text="Wzrost" Margin="0,0,0,10" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
+            <TextBox x:Name="WeightTextBox" Text="Waga" Margin="0,0,0,10" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
+            <Button Content="Utwórz" Click="CreateButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
